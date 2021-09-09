@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: var(--violet) url("images/bg-mobile.svg") no-repeat;
+  height: 100vh;
+  width: 80%;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Colors */
+
+:root {
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+  --white: hsl(0, 0%, 100%);
+}
+
+/* Typography  */
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.company-info {
+  color: var(--white);
+}
+
+.company-description {
+  line-height: 25px;
+  opacity: 0.8;
+}
+
+.btn {
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+/* Layout */
+
+.logo {
+  width: 8em;
+  margin-bottom: 3.5em;
+}
+
+.card-image {
+  margin-bottom: 4.5em;
+}
+
+.company-moto {
+  margin-bottom: 0.5em;
+}
+
+.company-info {
+  text-align: center;
+}
+
+.company-description {
+  margin-bottom: 2.5em;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: var(--white);
+  color: var(--violet);
+  padding: 0.9em 6em;
+  border-radius: 50px;
+}
+
+.social-icons {
+  margin-bottom: 2em;
+}
+
+.social-icons > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.fab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 2em;
+  min-height: 2em;
+  color: var(--white);
+  border: 1px solid var(--white);
+  border-radius: 50%;
+  margin: 0.25em;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 4.5em;
+}
+
+.attribution {
+  font-size: 0.6875em;
+  text-align: center;
+}
+.attribution a {
+  color: var(--white);
+}
